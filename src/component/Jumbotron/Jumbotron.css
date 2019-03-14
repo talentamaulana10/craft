@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+.logo{
+    width: 450px;
+    height: 420px;
+}
+.judul{
+    color: #270000;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Patrick Hand', cursive;
+}
+.subjudul{
+    color: #270000;
+    
+    font-size: 20px;
+    font-family: Uroob;
+}
+.susah{
+    color: #270000;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+.tombola{
+    background-color:#270000;
+    width:180px;
+    height:40px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0px 0px 20px 0px rgba(26, 25, 25, 0.514);
+    border-radius: 5px;
+    font-family: 'Patrick Hand', cursive;
+    cursor: pointer;
+    color: white;
+    border-width:0px;
+  
+}
+.tombolb{
+    margin-left: 10px;
+    background-color:#ffffff00;
+    width:180px;
+    color: #270000;
+    box-shadow: 0px 0px 20px 0px rgba(26, 25, 25, 0.514);
+    cursor: pointer;
+    font-family: 'Patrick Hand', cursive;
+    border-color: #270000;
+    height:40px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    border-width:2px;
+
+}
+
+@media only screen and (max-width: 993px){
+    .subjudul{
+        font-size: 18px;
+    }
+    .judul{
+        font-size: 37px;
+    }
+    .logo{
+        width: 350px;
+        height: 350px; 
+    }
+}
+@media only screen and (max-width: 829px){
+    .subjudul{
+        font-size: 18px;
+    }
+    .judul{
+        font-size: 25px;
+    }
+    .logo{
+        width: 200px;
+        height: 200px;
+    }
+    
+}
+@media only screen and (max-width: 868px){
+    .tombola{
+        width: 100px;
+        font-size: 10px
+    }
+    .tombolb{
+        width: 100px;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 463px){
+   .logo{
+       width: 300px;
+       height: 300px;
+   }
+}
+@media only screen and (max-width: 387px){
+    .logo{
+        width: 250px;
+        height: 250px;
+    }
+ }
+ @media only screen and (max-width: 287px){
+    .logo{
+        width: 200px;
+        height: 200px;
+    }
+ }
+ @media only screen and (max-width: 241px){
+    .logo{
+        width: 160px;
+        height: 160px;
+    }
+ }
+ @media only screen and (max-width: 183px){
+    .logo{
+        width: 130px;
+        height: 130px;
+    }
+ }
+ 
+ 
+ 
+ 

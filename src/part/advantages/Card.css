@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+.container{
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+    max-height: 150px;
+    flex-direction: column;
+    background-color: rgba(165, 42, 42, 0);
+}
+.image{
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 150px;
+}
+.image:hover{
+    width: 152px;
+    filter: saturate(250%)
+}
+.title{
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #270000;
+}
+.wadah{
+    min-height: 130px;
+}

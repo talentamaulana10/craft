@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+.button{
+    color: #270000;
+    background-color:rgba(250, 32, 32, 0);
+    margin: 0px 5px 0px 5px;
+    border-width: 0;
+    width: 90px;
+    height: 30px;
+    font-family: Uroob;
+    cursor: pointer;
+    font-size: 20px
+}
+.button:hover{
+    color:#270000d7;
+}
+@media only screen and (max-width: 993px){
+    .button{
+        width: 80px;
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 675px){
+    .button{
+        width: 60px;
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 447px){
+    .button{
+        width: 50px;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 419px){
+    .button{
+        width: 40px;
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width: 301px){
+    .button{
+        width: 37px;
+        font-size: 7px;
+    }
+}
