@@ -8,7 +8,7 @@ export default class Home extends Component {
     return (
       <div>
         <Nav/>
-          <Jumbotron judul="can be used alone can be resold" quotes="whe i was kidz i likes play te gae cald the sims if know where you can sreate the avatar and live in the fantas live have a dream jobs dream hhouuse dream car dream familiy drea everyting " />
+          <Jumbotron judul="can't be used alone can be resold" quotes="whe i was kidz i likes play te gae cald the sims if know where you can sreate the avatar and live in the fantas live have a dream jobs dream hhouuse dream car dream familiy drea everyting " />
          
       </div>
     )
