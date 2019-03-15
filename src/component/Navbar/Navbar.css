@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
 .toolbar{
-    justify-content: center;
-    background-color:white;
-    align-items: center;
-    
+   justify-content:space-around;
+   background-color: #fff;
 }
 .mybu{
     background-color:#270000;
@@ -18,6 +16,18 @@
     color:white;
     border-width:0px;
     
+}
+.mybu:hover{
+    box-shadow: 0px 0px 20px #000000;
+    z-index: 2;
+    -webkit-transition: all 250ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 250ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 250ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 250ms ease-in;
+    transform: scale(1.1);
 }
 @media only screen and (max-width: 993px){
     .mybu{

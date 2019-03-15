@@ -11,7 +11,9 @@ import Button from '@material-ui/core/Button'
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    
+    display:"flex",
+    justifyContent:"center",
+    alignItems:"center"
   },
   paper: {
     padding: theme.spacing.unit * 2,
@@ -26,7 +28,7 @@ function FullWidthGrid(props) {
   const { classes } = props;
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} >
       <Grid container spacing={0} style={{justifyContent:"center"}}>
         <Grid item xs={12} sm={6} >
           <div className={classes.paper}>
@@ -34,9 +36,9 @@ function FullWidthGrid(props) {
           <h1 className="judul">{props.judul}</h1><span  className="susah">{props.subjudul}</span>
           <h1 className="subjudul">{props.quotes}</h1>
           </div>
-          <div style={{marginTop:100,}}>
+          <div style={{marginTop:100,display:"flex",justifyContent:"space-around"}}>
             <button className="tombola">Pesan Sekarang</button>
-          <button className="tombolb">Cari Tau Lagi?</button>
+           <button className="tombolb">Cari Tau Lagi?</button>
           </div>
           </div>
         </Grid>

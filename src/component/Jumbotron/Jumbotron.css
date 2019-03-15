@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
 .logo{
-    width: 450px;
-    height: 420px;
+    width: 420px;
+    height: 400px;
 }
 .judul{
     color: #270000;
@@ -27,7 +27,7 @@
     height:40px;
     font-size: 18px;
     font-weight: bold;
-    box-shadow: 0px 0px 20px 0px rgba(26, 25, 25, 0.514);
+    box-shadow: 0px 0px 40px 3px #000000a1;
     border-radius: 5px;
     font-family: 'Patrick Hand', cursive;
     cursor: pointer;
@@ -36,11 +36,13 @@
   
 }
 .tombolb{
-    margin-left: 10px;
-    background-color:#ffffff00;
+    background: linear-gradient(to right,#270000, #270000);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.5s 0s;
     width:180px;
     color: #270000;
-    box-shadow: 0px 0px 20px 0px rgba(26, 25, 25, 0.514);
+    box-shadow: 0px 0px 40px 3px #000000a1;
     cursor: pointer;
     font-family: 'Patrick Hand', cursive;
     border-color: #270000;
@@ -51,7 +53,22 @@
     border-width:2px;
 
 }
-
+.tombolb:hover{
+    background-size: 100% 100%;
+    color: white;
+}
+.tombola:hover{
+    box-shadow: 0px 0px 70px #000000;
+    z-index: 2;
+    -webkit-transition: all 250ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 250ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 250ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 250ms ease-in;
+    transform: scale(1.2);
+}
 @media only screen and (max-width: 993px){
     .subjudul{
         font-size: 18px;

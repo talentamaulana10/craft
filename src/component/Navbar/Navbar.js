@@ -13,11 +13,18 @@ render(){
     <div className="appbar">
       <AppBar position="static" color="default">
         <Toolbar className="toolbar">
+        <div style={{display:"flex",flex:1,justifyContent:"center"}}>
+         <h1 style={{fontFamily:"Chilanka",cursor:"pointer",color: "#270000"}}>Web Name</h1>
+         </div>
+         <div style={{display:"flex",flex:2,justifyContent:"center"}}>
          <Button nama="Home"/>
          <Button nama="Bussines" />
          <Button nama="Contact"/>
          <Button nama="About"/>
+         </div>
+         <div style={{display:"flex",flex:1,justifyContent:"center"}}>
          <button className="mybu">Booking</button>
+         </div>
         </Toolbar>
       </AppBar>
     </div>
