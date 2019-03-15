@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a8dc37e73a7c9267d8af",
+    "revision": "5dd2ae05bea184d09a23",
     "url": "/craft/static/css/main.a524ca77.chunk.css"
   },
   {
-    "revision": "a8dc37e73a7c9267d8af",
-    "url": "/craft/static/js/main.dc41bc65.chunk.js"
+    "revision": "5dd2ae05bea184d09a23",
+    "url": "/craft/static/js/main.cab6759f.chunk.js"
   },
   {
     "revision": "83cd9dd7352ac9365d9c",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/craft/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "fa3e69859a29cc19144f54f7e18c08a8",
+    "revision": "6e6e2fd77912c9c4b1ae48d349048e70",
     "url": "/craft/index.html"
   }
 ];
